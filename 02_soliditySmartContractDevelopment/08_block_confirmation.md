@@ -54,3 +54,63 @@ When you check the same transaction later, the **number of confirmations will us
    * If the chain height is 10,000,007, your transaction now shows **8 confirmations**.
 
 So when you refresh the Etherscan page after a few minutes, the confirmation number will have increased because **more blocks have been added on top of the one that contains your transaction**, making it even more secure and irreversible.
+
+---
+---
+---
+
+No—your transaction isn’t split across five blocks at all.
+On Ethereum (and other blockchains) a single transaction lives entirely inside one block.
+Here’s how it really works:
+
+
+---
+
+1️⃣ Your transaction is mined/validated once
+
+When you send a transaction, it sits in the mempool (the waiting area).
+
+A validator picks it up and includes it in one specific block—let’s call that Block N.
+
+All the data for that transaction is stored completely inside Block N.
+
+
+
+---
+
+2️⃣ Confirmations are just extra layers of security
+
+After Block N is finalized, the network keeps producing new blocks: N+1, N+2, …
+
+Each new block is another confirmation that Block N is part of the permanent chain.
+
+So when Etherscan shows 5 confirmations, it means: Block N + 5 more blocks have been added on top of it.
+
+
+
+---
+
+3️⃣ Nothing is “split”
+
+Your transaction isn’t broken into pieces or distributed across those five blocks.
+
+Those later blocks don’t contain parts of your transaction; they just build on top of the block that already contains it.
+
+
+
+---
+
+Quick analogy:
+Think of pouring concrete:
+
+You pour your slab once (your transaction in Block N).
+
+Each extra layer of concrete above it (later blocks) makes the foundation harder to tamper with.
+
+The original slab never gets chopped up.
+
+
+✅ Bottom line:
+Your Ethereum transaction is written to one block only.
+The “5 block confirmations” simply show that five more blocks have been added after that block, making your transaction increasingly irreversible.
+
