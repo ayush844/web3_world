@@ -20,6 +20,10 @@ cast send <contract_address> "<function_signature>" <arguments> --rpc-url $RPC_U
 cast send 0x5FbDB2315678afecb367f032d93F642f64180aa3 "store(uint256)" 1337 --rpc-url $RPC_URL --private-key $PRIVATE_KEY
 ```
 
+```bash
+❯ cast send 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0 "store(uint256)" 1337 --rpc-url http://127.0.0.1:8545 --account secondKey 
+```
+
 ### Explanation:
 
 * **`cast send`** → Sign and publish a transaction to the blockchain.
