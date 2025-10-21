@@ -1,0 +1,20 @@
+# --- Foundry build artifacts ---
+out/
+cache/
+
+# --- Dependencies ---
+lib/
+
+# --- Deployment data (optional) ---
+broadcast/
+
+# --- Environment variables ---
+.env
+*.env
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log

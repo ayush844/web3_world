@@ -2,5 +2,3 @@
 	path = 03_foundryBasics/06_deploySimpleStorage/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
 
-
-*/.env
