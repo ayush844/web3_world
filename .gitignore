@@ -1,1 +1,15 @@
-*/.env
+# Environment variables (everywhere)
+.env
+
+# Compiler files
+cache/
+out/
+zkout/
+
+
+broadcast/
+
+# Docs
+docs/
+
+lib/
